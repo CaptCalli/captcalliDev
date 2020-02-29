@@ -7,7 +7,7 @@ My own personal website show casing my style, my projects and my resume.
 # Description
 
 Capt Calli is my own personal website. Created and maintained by me: Capt Calli. 
-[Capt Calli Website](https://captcalli.github.io/captcalli/)
+[Capt Calli Website](https://captcalli.github.io/captcalliDev/)
 
 ---
 
