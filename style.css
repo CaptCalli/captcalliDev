@@ -1,0 +1,241 @@
+/*
+Headers: font-family: 'Krona One' ;
+Body: 
+*/
+/*Colors: 62C2A9  blueish highlight; C2627B redish highlight   */
+
+body {
+	font-size: 18px;
+}
+
+/* Header */
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(imgs/background.jpg);
+	/*background attribution: <a href="https://www.vecteezy.com/free-vector/infographic">Infographic Vectors by Vecteezy</a>*/
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+	background-attachment: fixed;
+}
+
+.welcome {
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.engage {
+	font-size: 3.7rem;
+	text-align: center;
+}
+
+h1 a {
+	color: #62C2A9;
+}
+
+h1 a:hover,
+h1 a:visited {
+	color: white;
+}
+
+.logo {
+	height: 60px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+
+/* Main Navi */
+.main-nav {
+	float: right;
+	/*gets rid of bullet points in front of list items:*/
+	list-style: none;
+	margin-top: 40px;
+	margin-right: 5px;
+	font-family: 'Krona One'
+}
+
+.main-nav li {
+	display: inline-block;
+	/*changing to inline-block so they can be side by side*/
+	margin-left: 40px; 
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+	padding: 8px 0;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 90%;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+	border-bottom: 2px solid #62C2A9;
+}
+
+/* Mobile Navi */
+.mobile-nav-icon {
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+	display: none;
+}
+
+.mobile-nav-icon i {
+	font-size: 200%;
+	color: #fff;
+}
+
+
+
+/* Sticky Navi */
+
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(5, 5, 5, 0.9);
+	box-shadow: 0 2px 2px #efefef;
+	z-index: 9999;
+}
+
+.sticky .main-nav {
+	margin-top: 18px;
+}
+
+.sticky .logo {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+	padding: 8px 0;
+}
+
+
+
+
+/* Section components */
+section {
+	padding: 30px 0;
+}
+
+.bottomSection {
+	padding: 5px 0;
+}
+
+.row {
+	padding: 0 2%;
+}
+
+h1 {
+	font-family: "Krona One";
+	font-size: 3.2rem;
+	color: #258C75;
+	text-decoration: underline;
+}
+
+.sectionSeparator {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(imgs/background.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+	background-attachment: fixed;
+}
+
+
+h2 {
+	color: #45A78F;
+}
+
+#screenshotRegency {
+	border-radius: 15px;
+	padding: 5px;
+	margin-right: 1%;
+	max-width: 30%;
+	height: auto;
+	float: left;
+}
+
+#screenshotVixens {
+	border-radius: 15px;
+	padding: 5px;
+	margin-left: 1%;
+	max-width: 30%;
+	height: auto;
+	float: right;
+}
+
+#screenshotjaQuotes {
+	border-radius: 15px;
+	padding: 5px;
+	margin-right: 1%;
+	max-width: 30%;
+	height: auto;
+	float: left;
+}
+
+#vueVixensH2 {
+	clear: left;
+	padding-top: 10px;
+}
+
+#jaQuotesH2 {
+	clear: right;
+}
+
+
+p a {
+	color: #C2627B;
+}
+
+p a:hover {
+	text-decoration: underline;
+	color: #62C2A9;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+
+hr {
+	border: 1px solid #C2627B;
+}
+
+/* Footer */
+
+
+.footer {
+  padding-top: 25px;
+  padding-bottom: 15px;
+/*  font-size: 20px;*/
+  text-align: center;
+  background-color: #333;
+}
+
+.icons {
+	margin: 15px 0;
+	font-size: 3rem;
+	color: #62C2A9;
+}
+
+i:hover {
+	color: #C2627B;
+}
+
+.sigs {
+	font-size: 0.9rem;
+	color: #62C2A9;
+}
